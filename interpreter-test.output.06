@@ -1,0 +1,3 @@
+(quote todayIsTuesday)
+(quote todayIsNotWednesday (quote "todayIsTuesday"))
+(quote "the high was" (quote 58))

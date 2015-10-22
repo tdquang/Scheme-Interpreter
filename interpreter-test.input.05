@@ -1,0 +1,3 @@
+(let ((test (quote "hello")))
+	(if #t test "goodbye"))
+(quote ("now" (quote ("goodbye"))))

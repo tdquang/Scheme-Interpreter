@@ -1,0 +1,8 @@
+(define x 4)
+(define y 10)
+(define z
+    (lambda (a)
+        (if a
+            x
+            y)))
+(z #t)

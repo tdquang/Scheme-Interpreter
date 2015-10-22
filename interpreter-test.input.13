@@ -1,0 +1,4 @@
+(define a 4)
+(define b 5)
+(+ a b)
+(null? (+ a b))

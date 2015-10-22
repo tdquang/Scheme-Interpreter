@@ -1,0 +1,5 @@
+(if #f 5 7)
+(let ((test "hello") 
+	(test2 "goodbye")
+	(justMet #t))
+	(if justMet (let ((justMet #f)) (if justMet test test2)) test))

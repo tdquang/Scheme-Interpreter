@@ -1,0 +1,2 @@
+(quote "hello")
+(quote ("now" (quote ("goodbye"))))

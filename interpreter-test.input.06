@@ -1,0 +1,5 @@
+(quote todayIsTuesday)
+(quote todayIsNotWednesday (quote "todayIsTuesday"))
+(let ((todayTuesday #t)
+	(todayWednesday #f))
+	(if todayTuesday (quote "the high was" (quote 58)) (quote notTuesday)))
